@@ -1,0 +1,6 @@
+language: C
+sudo: false # only for faster builds
+compiler: gcc
+script:
+- gcc -o pattern pattern.c
+- ./pattern
