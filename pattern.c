@@ -2,7 +2,7 @@
 
 int main()
 {
-  int row, c, n=5, s;
+  int row, c, n=5, s,i ,j;
 
   printf("pyramid of stars that you wish to see\n");
    printf("hello all this kartik editing this");
@@ -22,6 +22,30 @@ int main()
 
     printf("\n");
   }
+  
+ 
+
+
+    //printf("Enter number of rows: ");
+    //scanf("%d",&rows);
+
+    for(i=row; i>=1; --i)
+    {
+        for(s=0; s< row-i; ++s)
+            printf("  ");
+
+        for(j=i; j <= 2*i-1; ++j)
+            printf("* ");
+
+        for(j=0; j < i-1; ++j)
+            printf("* ");
+
+        printf("\n");
+    }
+
+    
+
+
 printf("jyoti\n");
   return 0;
 }
