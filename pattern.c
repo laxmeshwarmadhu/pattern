@@ -5,6 +5,7 @@ int main()
   int row, c, n=5, s;
 
   printf("pyramid of stars that you wish to see\n");
+   printf("hello all this kartik editing this");
   //scanf("%d", &n);
 
   s = n;
