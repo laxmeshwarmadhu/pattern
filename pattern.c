@@ -4,7 +4,7 @@ int main()
 {
   int row, c, n=5, s;
 
-  //printf("Enter the number of rows in pyramid of stars you wish to see\n");
+  printf("pyramid of stars that you wish to see\n");
   //scanf("%d", &n);
 
   s = n;
